@@ -1,0 +1,7 @@
+function astroguru(children,spouse,location,job){
+  
+  return `You will be a ${job} in ${location} and married to ${spouse} with ${children} kids`;
+  
+}
+
+console.log(astroguru(2,"Riya","Banglore","SDE 1"));
