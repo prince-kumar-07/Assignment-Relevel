@@ -1,3 +1,5 @@
+//Q1. astroguru function
+
 function astroguru(children,spouse,location,job){
   
   return `You will be a ${job} in ${location} and married to ${spouse} with ${children} kids`;
@@ -5,3 +7,32 @@ function astroguru(children,spouse,location,job){
 }
 
 console.log(astroguru(2,"Riya","Banglore","SDE 1"));
+
+
+
+
+
+
+
+
+//Q2. compare two number
+
+function max(num1,num2){
+  
+  if((typeof num1) !== "number" || (typeof num2) !== "number")
+    return `Invalid input`;
+  
+  else if(num1===num2)
+    return `Both values are same`;
+  
+  else if(num1>num2)
+    return `${num1} is greater than ${num2}`;
+  
+  else if(num2>num1)
+    return `${num2} is greater than ${num1}`;
+}
+
+console.log(max(7,9));
+
+
+
